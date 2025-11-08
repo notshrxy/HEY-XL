@@ -1,0 +1,44 @@
+You are designing a frontend interface for a voice-driven Excel assistant.
+The app has the following requirements:
+
+Style & Layout:
+
+- The chat interface should look similar to Gemini’s live chat (Google’s AI app). if not, provide a moving orb/aura like interface whensoever the user speaks into the microphone and also when the system responds back to the user
+
+- Minimalistic, clean, modern design, make it colorful (darker themed), fill it with robust animations when you hover over, click on and interact with the other elements on the page.
+
+-Messages should appear on the side of the screen (either the left or the right), and they should be put inside a mobile like image. give it a nice effect like glitching in and out, and make the interface look like a "..." whenever the system is thinking of what to tell back to the user.
+
+Smooth animations (fade/slide) when new messages appear.
+
+Transcription Overlay:
+
+A large, bold, artistic transcription display should appear at the center of the screen whenever speech is being recognized. And also make sure there's a typing like effect as the system replies and a blinking effect when the system is thinking. 
+
+This transcription helps users in noisy environments or if they miss something the TTS voice said.
+
+The overlay should auto-hide when not listening. And something informative should come up for display when the tts is inactive (Like possible information that can be asked to the system can be asked to the system can be displayed, for example, "Try saying "Hey xl!" to activate voice chat") or some rare points about the system that the user might not know.
+
+Voice & Input Controls:
+
+A floating microphone button (bottom-right corner, circular, glowing pulse animation when active). Make it attractive, add the microphone symbol inside like an engraved mark
+
+Allow fallback to text input (like Gemini/Bard) if in case the NLP backend fails to recognize what is being said, the fallback should happen after a "Sorry.." kind of a message and then the text bar in the bottom should open up and enlarge, asking the user to manually type in input.
+
+Show listening state (🎙️ Listening...), transcribing state (⌛ Processing...), and speaking state (🔊 Speaking...) using better animatographics and icons and text modules.
+
+Accessibility & Feedback:
+
+Provide clear visual feedback during speech recognition.
+
+The current recognized text should be displayed in real-time.
+
+Support both dark and light modes. Provide an on off slider like interactive button on the top right, the left side of slider should be like (dark mode since it's off) and the right side should be light mode (like on)
+
+Technology Stack:
+
+Responsive design (desktop & mobile).
+
+Chat messages are scrollable.
+
+Transcription overlay should use framer-motion (or the best fit tech accordingly) for smooth fade-in/out animations.
