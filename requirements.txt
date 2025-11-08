@@ -1,0 +1,49 @@
+# Excel Voice Automation Backend Dependencies
+# Core Excel handling
+openpyxl>=3.1.0
+
+# Text-to-Speech (TTS) for voice feedback
+pyttsx3>=2.90
+
+# Speech Recognition for voice input (Whisper-based with fallback)
+openai-whisper>=20231117
+SpeechRecognition>=3.10.0  # Fallback option
+
+# Speaker Identification and Voice Processing
+resemblyzer>=0.1.1
+numpy>=1.21.0
+sounddevice>=0.4.4
+soundfile>=0.10.3
+
+# Natural Language Processing and Command Parsing
+spacy>=3.4.0
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.20.0
+pandas>=1.5.0
+requests>=2.31.0
+
+# GUI components (for file dialogs)
+# Note: tkinter is included with Python standard library
+# No additional installation needed for tkinter
+
+# Standard library modules (included with Python)
+# - os
+# - json
+# - time
+# - pathlib
+# - typing
+# - re
+# - warnings
+
+# Live Preview Server
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Optional: For better performance and additional features
+# Uncomment if you want enhanced functionality
+# rapidfuzz>=2.13.0  # Faster fuzzy matching (alternative to fuzzywuzzy)
+# pandas>=1.5.0      # For advanced Excel data manipulation
+
+# Development and Testing (optional)
+# pytest>=7.0.0     # For running tests
+# pytest-cov>=4.0.0 # For test coverage

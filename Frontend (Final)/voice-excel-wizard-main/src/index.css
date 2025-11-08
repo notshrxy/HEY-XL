@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 100% 98%;
+    --foreground: 220 15% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 20%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 217 91% 75%;
+
+    --secondary: 214 100% 97%;
+    --secondary-foreground: 217 91% 60%;
+
+    --muted: 214 100% 96%;
+    --muted-foreground: 220 15% 50%;
+
+    --accent: 261 51% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 88%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
+
+    --radius: 1rem;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(261 51% 51%));
+    --gradient-subtle: linear-gradient(180deg, hsl(210 100% 98%), hsl(214 100% 97%));
+    --shadow-elegant: 0 10px 30px -10px hsl(217 91% 60% / 0.3);
+    --shadow-soft: 0 4px 20px -2px hsl(217 91% 60% / 0.15);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 15% 8%;
+    --foreground: 210 15% 92%;
+
+    --card: 220 12% 12%;
+    --card-foreground: 210 15% 92%;
+
+    --popover: 220 12% 12%;
+    --popover-foreground: 210 15% 92%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 217 91% 75%;
+
+    --secondary: 220 8% 16%;
+    --secondary-foreground: 210 15% 92%;
+
+    --muted: 220 8% 16%;
+    --muted-foreground: 215 5% 85%;
+
+    --accent: 261 51% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 8% 20%;
+    --input: 220 8% 20%;
+    --ring: 217 91% 60%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(261 51% 51%));
+    --gradient-subtle: linear-gradient(180deg, hsl(220 15% 8%), hsl(220 12% 12%));
+    --shadow-elegant: 0 10px 30px -10px hsl(217 91% 60% / 0.3);
+    --shadow-soft: 0 4px 20px -2px hsl(217 91% 60% / 0.15);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  /* Hover effects for headings */
+  .hover-lift {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-4px) scale(1.02);
+    text-shadow: 0 0 20px currentColor;
+  }
+  
+  /* Smooth text glow effect */
+  .text-glow {
+    transition: text-shadow 0.3s ease;
+  }
+  
+  .text-glow:hover {
+    text-shadow: 0 0 20px currentColor, 0 0 40px currentColor;
+  }
+  
+  /* Subtle scale effect for cards */
+  .card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-2px) scale(1.01);
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  /* Lighter text for better readability */
+  .text-light {
+    color: hsl(210 10% 90%);
+  }
+  
+  .text-lighter {
+    color: hsl(215 5% 88%);
+  }
+
+  /* Classy themed scrollbars */
+  .styled-scrollbar {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: hsl(var(--border)) hsl(var(--secondary));
+  }
+
+  .styled-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .styled-scrollbar::-webkit-scrollbar-track {
+    background: hsl(var(--secondary));
+    border-radius: 9999px; /* fully rounded */
+  }
+
+  .styled-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, hsl(var(--primary) / 0.7), hsl(var(--accent) / 0.7));
+    border-radius: 9999px;
+    border: 2px solid hsl(var(--secondary));
+  }
+
+  .styled-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, hsl(var(--primary)), hsl(var(--accent)));
+  }
+}
