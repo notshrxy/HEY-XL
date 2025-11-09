@@ -1,3 +1,6 @@
+🧭 NaviBot – Smart Campus Navigation System
+© 2025 Shreyas | Student of Sathyabama Institute of Science and Technology
+
 import openpyxl
 import os
 from openpyxl import Workbook
