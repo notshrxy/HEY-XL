@@ -56,9 +56,9 @@ HEY-XL processes the voice input, interprets intent, and updates Excel sheets in
 
 ## 👥 Team
 
-Developed by **Shreyas S** and **Kevin Alex A**
+Developed by **Shreyas S** and **Akash P**
 @shreyasofficial2904@gmail.com
-@kevinalex2006@gmail.com
+@akash2005akash@gmail.com
 
 ---
 
