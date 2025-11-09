@@ -1,0 +1,7 @@
+VENV (VIRTUAL ENVIRONMENT) - PYTHON, FOLDER LOCALLY USED DURING DEVELOPMENT.
+
+The venv folder contains a virtual environment used to manage Python dependencies locally.
+It’s ignored in .gitignore because it’s system-specific — you can recreate it anytime with:
+
+python -m venv venv #2nd 'venv' indicates name of the venv, here - 'heyxl'
+pip install -r requirements.txt
