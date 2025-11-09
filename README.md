@@ -17,7 +17,13 @@ HEY-XL processes the voice input, interprets intent, and updates Excel sheets in
 
 ---
 
+## 📺Project Demo
+
+https://github.com/user-attachments/assets/35ae88c9-7295-4488-81a5-74b05ddb84f3
+
 ## ⚙️ Tech Stack
+
+---
 
 ### 🧠 Backend
 - **Python**
@@ -32,6 +38,18 @@ HEY-XL processes the voice input, interprets intent, and updates Excel sheets in
 - **HTML / CSS / JavaScript**
 - **Responsive Interface** for recording and preview
 - Real-time connection to Flask API
+
+---
+
+## ⚙️ System Architecture
+
+<img width="3019" height="674" alt="Image" src="https://github.com/user-attachments/assets/ab050f28-6256-43ac-8e33-fa90b76f1003" />
+
+---
+
+## 💪 Workflow Diagram
+
+<img width="1780" height="1980" alt="Image" src="https://github.com/user-attachments/assets/2edbde5b-99a7-4faa-bdac-79e5c6da21cd" />
 
 ---
 
