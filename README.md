@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/35ae88c9-7295-4488-81a5-74b05ddb84f3
 
 ## 💪 Workflow Diagram
 
-<img width="1780" height="1980" alt="Image" src="https://github.com/user-attachments/assets/2edbde5b-99a7-4faa-bdac-79e5c6da21cd" />
+<img width="1780" height="1865" alt="Image" src="https://github.com/user-attachments/assets/50bd5a87-36a9-4273-bcb7-64d7ed1d12ab" />
 
 ---
 
