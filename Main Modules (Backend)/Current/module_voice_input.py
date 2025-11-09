@@ -1,6 +1,9 @@
 # module_voice_input.py
 # Whisper disabled entirely. This module now provides recording helpers only,
 # and any transcription should be done by callers (e.g., via SpeechRecognition).
+🧭 NaviBot – Smart Campus Navigation System
+© 2025 Shreyas | Student of Sathyabama Institute of Science and Technology
+
 import sounddevice as sd
 import soundfile as sf
 import numpy as np
