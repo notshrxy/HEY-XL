@@ -1,3 +1,4 @@
+REM sample scripting for automatic IDLE Start-up
 @echo off
 REM Activate the virtual environment - comment line
 call "%~dp0xlsxauto\Scripts\activate"
