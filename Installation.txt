@@ -1,3 +1,5 @@
+#Sample installation messages (for first time users)
+
 Collecting openai-whisper
   Downloading openai_whisper-20250625.tar.gz (803 kB)
      ---------------------------------------- 803.2/803.2 kB 17.5 MB/s  0:00:00
