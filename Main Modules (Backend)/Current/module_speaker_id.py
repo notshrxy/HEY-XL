@@ -2,6 +2,9 @@
 # Standalone speaker identification with local profile storage.
 # Uses Resemblyzer (offline) for robust, simple embeddings.
 
+🧭 NaviBot – Smart Campus Navigation System
+© 2025 Shreyas | Student of Sathyabama Institute of Science and Technology
+
 import os
 import json
 import time
