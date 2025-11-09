@@ -1,0 +1,67 @@
+# 🤖 HEY-XL – Voice-Driven Excel Automation
+
+HEY-XL is a **voice-activated Excel automation assistant** that allows users to perform spreadsheet operations using natural speech commands.  
+From adding marks to updating records, HEY-XL simplifies data entry and manipulation through intelligent voice interaction.
+
+---
+
+## 🚀 Project Overview
+
+Designed primarily for educational and workspace productivity, HEY-XL combines **speech recognition**, **natural language processing (NLP)**, and **Excel automation** to execute user commands in real-time.
+
+Users can say commands like:
+> “Add 85 for Priya in DSA”  
+> “Update Rahul’s attendance to 92 percent”
+
+HEY-XL processes the voice input, interprets intent, and updates Excel sheets instantly — making manual typing a thing of the past.
+
+---
+
+## ⚙️ Tech Stack
+
+### 🧠 Backend
+- **Python**
+- **Flask API**
+- **SpeechRecognition / OpenAI Whisper**
+- **pyttsx3 (Text-to-Speech)**
+- **pandas, openpyxl** for Excel handling
+- **Resemblyzer** for speaker analysis
+- **spaCy / FuzzyWuzzy** for NLP and command parsing
+
+### 💻 Frontend
+- **HTML / CSS / JavaScript**
+- **Responsive Interface** for recording and preview
+- Real-time connection to Flask API
+
+---
+
+## 🧩 Key Features
+
+✅ Voice-driven Excel data entry  
+✅ NLP-powered command understanding  
+✅ Real-time confirmation via Text-to-Speech  
+✅ Flask-based backend communication  
+✅ Speaker-aware command processing  
+✅ Cross-language support (English + Tamil tested)  
+
+---
+
+## 🔮 Future Upgrades
+
+- Web-based deployment on Vercel or Render  
+- Integration with Google Sheets  
+- AI-powered contextual command chaining  
+
+---
+
+## 👥 Team
+
+Developed by **Shreyas S** and **Kevin Alex A**
+@shreyasofficial2904@gmail.com
+@kevinalex2006@gmail.com
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
