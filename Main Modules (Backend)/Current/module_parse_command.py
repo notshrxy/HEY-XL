@@ -1,3 +1,6 @@
+🧭 NaviBot – Smart Campus Navigation System
+© 2025 Shreyas | Student of Sathyabama Institute of Science and Technology
+
 import re
 # import spacy  # disabled per request: using regex-only parsing since spacy is throwing garbage STT
 from fuzzywuzzy import fuzz
