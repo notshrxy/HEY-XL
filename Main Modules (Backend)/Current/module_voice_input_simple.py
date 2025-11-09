@@ -1,5 +1,7 @@
 # module_voice_input_simple.py
 # Alternative voice input module using only SpeechRecognition (no Whisper)
+
+#INPUT MODULE WITHOUT WHISPER AND SPACY INSTALLATION/USAGE
 import speech_recognition as sr
 from typing import Optional, Dict, Callable
 import time
