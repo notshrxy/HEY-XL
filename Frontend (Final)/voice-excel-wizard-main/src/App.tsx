@@ -1,3 +1,7 @@
+🧭 NaviBot – Smart Campus Navigation System
+© 2025 Shreyas | Student of Sathyabama Institute of Science and Technology
+
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
