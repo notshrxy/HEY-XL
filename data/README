@@ -1,0 +1,4 @@
+#This folder contains all the voice profiles registered by the system during run-time for speaker identification.
+#There are 3 voice id's successfully logged, CAN BE HELD AND USED AS A REFERENCE INSTEAD OF ASSUMPTIONS TO HOW THE SPEAKER IDENTIFICATION MODULE WORKS.
+
+#SAVES AUDIO AS .WAV, ALONG WITH EMBEDDINGS, AND LOGS USERS BASED ON A MINIMUM OF 0.6 OR HIGHER SIMILARITY
