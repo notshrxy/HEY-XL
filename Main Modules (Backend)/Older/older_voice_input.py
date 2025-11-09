@@ -1,4 +1,6 @@
 # module_voice_input.py
+
+#Prototypic voice input module for demonstration
 import speech_recognition as sr
 from typing import Optional, Dict, Callable
 import time
