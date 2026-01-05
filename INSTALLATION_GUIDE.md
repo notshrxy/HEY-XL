@@ -168,3 +168,5 @@ If you encounter issues:
 2. Run the test script to identify problems
 3. Check the console output for error messages
 4. Ensure all dependencies are properly installed
+
+This is an installation guide that walks users through a dependency setup.
