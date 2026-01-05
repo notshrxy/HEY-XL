@@ -1,5 +1,6 @@
 # backend_controller.py
 """
+.py script
 Backend Controller API for managing main.py process
 Provides endpoints for frontend to control the backend
 """
