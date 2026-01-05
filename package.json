@@ -1,5 +1,7 @@
 {
+  "_comment": "This section defines project metadata",
   "dependencies": {
     "firebase": "^12.4.0"
   }
 }
+
