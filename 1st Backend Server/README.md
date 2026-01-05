@@ -21,4 +21,3 @@ Update ALLOWED_ORIGINS in server.py if your dev URL differs from http://localhos
 
 ## Hooking your pipeline
 Replace the simulated run in /api/session/run with a subprocess call to your main.py that accepts --file <path> and prints progress. Append stdout lines to SESSIONS[sessionId]["logs"].
-
