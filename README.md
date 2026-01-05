@@ -22,13 +22,28 @@ HEY-XL processes the voice input, interprets intent, and updates Excel sheets in
 
 ## Demonstration
 
+Complete MVP Demo
+
 https://github.com/user-attachments/assets/55d29bc6-7b55-4dfd-a37b-f7758f6118ae
+
+Editing Excel File using Tamil Language
+
+https://github.com/user-attachments/assets/b68a1c1a-5465-4969-919c-6c10081c7985
 
 ---
 
 ## HEY-XL UI/UX
 
+Figma Design (Home Page)
+
 ![Image](https://github.com/user-attachments/assets/fc2b38cc-f92f-4b20-b248-86e3d44ec071)
+
+Live Preview Server
+
+![Image](https://github.com/user-attachments/assets/c463abb4-c225-45ac-9da5-58c7485cf614)
+
+Figma Design (Main Excel Orchestra)
+
 ![Image](https://github.com/user-attachments/assets/32b7ff89-dc97-49ee-bfa8-e7cf30e7c66a)
 
 
@@ -36,9 +51,15 @@ https://github.com/user-attachments/assets/55d29bc6-7b55-4dfd-a37b-f7758f6118ae
 
 # Console Outputs
 
+Succesful Startup of Server and Frontend Service
+
 https://github.com/user-attachments/assets/1ed1e294-d425-485b-80cb-2dcb61e3882d
 
+Making Modifications to Excel Voice using Textual Input (Failsafe)
+
 https://github.com/user-attachments/assets/175fee63-1c01-4c4b-8006-8302f6893ad0
+
+Proper Console Output Log after Successful Iteration
 
 ![Image](https://github.com/user-attachments/assets/33f8d15f-b4d9-459c-be05-179a7e07d41a)
 
