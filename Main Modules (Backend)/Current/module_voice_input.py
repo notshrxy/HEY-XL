@@ -1,4 +1,5 @@
 # module_voice_input.py
+# Input Voice Transcription
 # Whisper disabled entirely. This module now provides recording helpers only,
 # and any transcription should be done by callers (e.g., via SpeechRecognition).
 import sounddevice as sd
