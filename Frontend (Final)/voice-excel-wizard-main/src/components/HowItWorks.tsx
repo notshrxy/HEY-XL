@@ -109,3 +109,4 @@ const HowItWorks = ({ onScrollToBottom, slideIndex }: HowItWorksProps) => {
 };
 
 export default HowItWorks;
+//Explanation Component
