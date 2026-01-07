@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#Sample .py script for testing
 """
 Test script to verify the Excel Voice Automation integration works correctly.
 This script tests the core functionality without requiring voice input.
