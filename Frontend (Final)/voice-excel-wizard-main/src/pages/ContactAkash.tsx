@@ -215,5 +215,3 @@ const ContactAkash = () => {
 };
 
 export default ContactAkash;
-
-
