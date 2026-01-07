@@ -367,3 +367,4 @@ class ExcelHandler:
             return True, f"Subject '{subject_name}' matched with '{best_match}' ({best_score}%)"
         
         return False, f"Subject '{subject_name}' not found. Available subjects: {', '.join(self.headers)}"
+#.py Script handling Excel Sheets
