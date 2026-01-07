@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test script to verify simple voice input works without Whisper
+Test script to verify simple voice input works without using Whisper module
 """
 import sys
 import os
