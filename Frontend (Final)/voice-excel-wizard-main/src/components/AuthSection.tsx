@@ -343,3 +343,4 @@ const AuthSection = ({ onAuthSuccess }: AuthSectionProps) => {
 };
 
 export default AuthSection;
+//User Authorizer
