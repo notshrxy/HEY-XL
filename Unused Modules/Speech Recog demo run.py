@@ -12,3 +12,5 @@ def get_voice_input():
     except sr.UnknownValueError:
         return "Sorry, I couldn't understand."
 get_voice_input()
+
+#Learning to use and import speechrecognition
