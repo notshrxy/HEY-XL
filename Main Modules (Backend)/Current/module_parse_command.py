@@ -326,3 +326,4 @@ def parse_command(command: str, excel_instance = None):
         speak("⚠️ Action recognized but not yet supported.")
 
     return merged
+#Regex+Spacy
