@@ -92,3 +92,4 @@ const UseCases = ({ onScrollToBottom, slideIndex }: UseCasesProps) => {
 };
 
 export default UseCases;
+//Explanations HEY-XL use-cases
