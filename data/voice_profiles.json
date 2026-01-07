@@ -1,4 +1,5 @@
 {
+  "_comment": ".json file holding registered voice profiles",
   "version": 1,
   "sample_rate": 16000,
   "users": {
@@ -790,3 +791,4 @@
     }
   }
 }
+
