@@ -96,3 +96,4 @@ const Technologies = ({ onScrollToBottom, slideIndex }: TechnologiesProps) => {
 };
 
 export default Technologies;
+//Describes used tech features
