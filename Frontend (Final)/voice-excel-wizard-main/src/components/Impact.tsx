@@ -124,3 +124,4 @@ const Impact = ({ onScrollToBottom, slideIndex }: ImpactProps) => {
 };
 
 export default Impact;
+//Carousel showcasing the impact HEY-XL can make
