@@ -296,3 +296,4 @@ const Contact = () => {
 };
 
 export default Contact;
+//Contains Contact info placeholders
