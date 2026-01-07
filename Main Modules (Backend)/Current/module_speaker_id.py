@@ -1,5 +1,4 @@
 # module_speaker_id.py
-# Standalone speaker identification with local profile storage.
 # Uses Resemblyzer (offline) for robust, simple embeddings.
 
 import os
